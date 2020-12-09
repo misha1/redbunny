@@ -354,6 +354,7 @@ nav a {
 		margin-bottom: 30px;
 		width: 200px;
 	}
+	
 	.content-main .items-cards .card img{
 		width: 200px;
 		height: 200px;
@@ -363,6 +364,9 @@ nav a {
 		width: 200px;
 	}
 
+	.footer{
+		height: 180px;
+	}
 	.footer-content{
 		font-size: 1em;
 	}
