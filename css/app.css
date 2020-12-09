@@ -260,3 +260,24 @@ nav a {
 	font-size: 1.5em;
 }
 
+@media (max-width: 1470px) {
+	.content-main .items-cards {
+		width: 1300px;
+		flex-wrap: wrap;
+	}
+	.content-main .items-cards .card{
+		margin-bottom: 50px;
+	}
+}
+
+
+@media (max-width: 1328px) {
+	.content-main .items-cards {
+		width: 1000px;
+		flex-wrap: wrap;
+	}
+
+	nav li {
+		font-size: 1.2em;
+	}
+}
