@@ -235,6 +235,21 @@ nav a {
 	color: red;
 }
 
+.content-main  .about  .about-text .pay-kind{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.content-main  .about  .about-text .pay-kind img{
+	border-radius: 50px;
+}
+
+.content-main  .about  .about-text .pay-kind .img-text{
+	margin-left: 30px;
+}
+
+
+
 .footer{
 	margin-top: 150px;
 	height: 250px;
@@ -259,6 +274,8 @@ nav a {
 	height: 150px;
 	font-size: 1.5em;
 }
+
+
 
 @media (max-width: 1470px) {
 	.content-main .items-cards {
