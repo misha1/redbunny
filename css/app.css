@@ -238,7 +238,7 @@ nav a {
 .footer{
 	margin-top: 150px;
 	height: 250px;
-	background-color: #d8000091;
+	background-color: #9d3535;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -319,6 +319,18 @@ nav a {
 		width: 900px;
 		flex-wrap: wrap;
 		
+	}
+	nav li {
+		font-size: 1em;
+	}
+	.content-main .about .about-text {
+		font-size: 1em;
+	}
+	.content-main .main-text {
+		font-size: 2em;
+	}
+	.content-main .main-subtext {
+		font-size: 1.5em;
 	}
 
 	.content-main .items-cards .card{
