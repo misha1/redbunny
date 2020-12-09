@@ -362,4 +362,11 @@ nav a {
 	.content-main .items-cards .card .card-info {
 		width: 200px;
 	}
+
+	.footer-content{
+		font-size: 1em;
+	}
+	.footer-content img{
+		width: 400px;
+	}
 }
