@@ -255,12 +255,9 @@ nav a {
 
 
 .footer{
-	position: absolute;
-	left: 0;
-	bottom: 0;
+	margin-top: 100px;
 	width: 100%;
-	margin-top: 150px;
-	height: 200px;
+	height: 170px;
 	background-color: #9d3535;
 	display: flex;
 	justify-content: center;
@@ -279,7 +276,7 @@ nav a {
 	align-items: center;
 	width: 1450px;
 	justify-content: space-between;
-	height: 150px;
+	height: 130px;
 	font-size: 1.5em;
 }
 
@@ -287,9 +284,16 @@ nav a {
 .main-error{
 	margin: auto;
 	width: 1200px;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 .main-error .error-text{
+	text-align: center;
 	font-size: 3em;
+	margin-bottom: 50px;
 }
 .main-error img{
 	display: flex;
@@ -302,8 +306,16 @@ nav a {
 	margin-right: 20px;
 }
 .main-error .error-info{
+	padding-left: 50px;
+	margin-top: 50px;
 	display: flex;
 }
+
+.main-error .error-info p{
+	text-align: left;
+}
+/*конец error page*/
+
 
 @media (max-width: 1470px) {
 	.content-main .items-cards {
