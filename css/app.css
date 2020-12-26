@@ -111,28 +111,93 @@ header .header-img{
 	height: 40px;
 }
 
-nav {
-	display: flex;
-	height: 70px;
-	background-color: #9d3535;
-	justify-content: center;
-	align-items: center;
-}
-nav li {
-	margin: 0 30px;
-	padding: 2px 30px;
-	list-style-type: none;
-	border: 2px solid;
-	background-color: #5f1515;
-	border-radius: 20px;
-	font-size: 2em;
+.dws-menu *{
+	margin: 0;
+	padding: 0;
 }
 
-nav a {
-	color: white;
-	text-decoration: none;
+.dws-menu > ul{
+	display: flex;
+	justify-content:space-evenly;
+	list-style: none;
+	background-color:#9d3535;
+	height: 70px;
+	align-items: center;
 	
 }
+
+.dws-menu > ul li a {
+	display: block;
+	background-color:  #5f1515;
+	padding: 2px 30px;
+	font-size: 2em;
+	color: #ffffff;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+}
+
+
+.dws-menu li a:hover{
+	background-color: #ff4c4c;
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px white;
+	border-radius: 0;
+	transition: all 0.3s ease;
+}
+
+
+/*sub menu*/
+.dws-menu li ul {
+	position: absolute;
+	min-width: 207px;
+	list-style: none;
+	display: none;
+	border: 1px solid black;
+	left: 0;
+	width: 400px;
+	min-height: 450px;
+	background-color:#9d3535;
+}
+
+
+.dws-menu li>ul li{
+	padding: 0;
+	margin: 0;
+}
+
+.dws-menu li > ul li a{
+	padding: 10px;
+	font-size: 1.5em;
+	border-radius: 0;
+	border: 0;
+	background-color: #9d3535;
+	text-transform: none;
+}
+
+.dws-menu li .first-catalog li ul {
+	position: absolute;
+	width: 400px;
+	left : 800px;
+	top:0;
+}
+
+.dws-menu li .sec-catalog {
+	left: 400px;
+}
+
+.dws-menu li .sec-catalog li ul {
+	position: absolute;
+	width: 400px;
+	left: 400px;
+	top:0;
+}
+
+.dws-menu li:hover > ul {
+	display: block;
+}
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
@@ -145,7 +210,7 @@ nav a {
 }
 
 .content-main .main-text {
-	margin-top: 50px;
+	margin-top: 120px;
 	text-align: center;
 	color: #e30303;
 	font-size: 3.5em;
@@ -347,8 +412,8 @@ nav a {
 		width: 1200px;
 	}
 
-	nav li {
-		font-size: 1.2em;
+	.dws-menu > ul li a {
+		font-size: 1.5em;
 	}
 	.content-main .items-cards .card{
 		width: 200px;
@@ -377,8 +442,8 @@ nav a {
 		flex-wrap: wrap;
 		
 	}
-	nav li {
-		font-size: 1em;
+	.dws-menu > ul li a {
+		font-size: 1.2em;
 	}
 	.content-main .about .about-text {
 		font-size: 1.5em;
