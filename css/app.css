@@ -382,6 +382,63 @@ header .header-img{
 }
 /*конец error page*/
 
+@media (max-width: 1700px) {
+	
+	/*sub menu*/
+	.dws-menu li ul {
+
+		left: 500px;
+		width: 300px;
+	}
+
+	.dws-menu li > ul li a{
+		font-size: 1em;
+	}
+
+	.dws-menu li .first-catalog li ul {
+		width: 300px;
+		left : -300px;
+	}
+
+	.dws-menu li .sec-catalog {
+		left: 800px;
+	}
+
+	.dws-menu li .sec-catalog li ul {
+		width: 300px;
+		left: 300px;
+	}
+
+}
+
+@media (max-width: 1545px) {
+	
+	/*sub menu*/
+	.dws-menu li ul {
+
+		left: 500px;
+		width: 300px;
+	}
+
+	.dws-menu li > ul li a{
+		font-size: 1em;
+	}
+
+	.dws-menu li .first-catalog li ul {
+		width: 300px;
+		left : -300px;
+	}
+
+	.dws-menu li .sec-catalog {
+		left: 800px;
+	}
+
+	.dws-menu li .sec-catalog li ul {
+		width: 300px;
+		left: 300px;
+	}
+
+}
 
 @media (max-width: 1470px) {
 	.content-main .items-cards {
@@ -416,6 +473,10 @@ header .header-img{
 	.dws-menu > ul li a {
 		font-size: 1.5em;
 	}
+	.dws-menu > ul{
+		height: 40px;	
+	}
+
 	.content-main .items-cards .card{
 		width: 200px;
 	}
@@ -445,6 +506,9 @@ header .header-img{
 	}
 	.dws-menu > ul li a {
 		font-size: 1.2em;
+	}
+	.dws-menu > ul{
+		height: 35px;	
 	}
 	.content-main .about .about-text {
 		font-size: 1.5em;
