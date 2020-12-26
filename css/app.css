@@ -155,7 +155,7 @@ header .header-img{
 	list-style: none;
 	display: none;
 	border: 1px solid black;
-	left: 0;
+	left: 400px;
 	width: 400px;
 	min-height: 450px;
 	background-color:#9d3535;
@@ -179,12 +179,12 @@ header .header-img{
 .dws-menu li .first-catalog li ul {
 	position: absolute;
 	width: 400px;
-	left : 800px;
+	left : -400px;
 	top:0;
 }
 
 .dws-menu li .sec-catalog {
-	left: 400px;
+	left: 800px;
 }
 
 .dws-menu li .sec-catalog li ul {
@@ -194,9 +194,10 @@ header .header-img{
 	top:0;
 }
 
-.dws-menu li:hover > ul {
+.dws-menu li:hover > ul{
 	display: block;
 }
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
