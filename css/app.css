@@ -128,13 +128,11 @@ header .header-img{
 
 .dws-menu > ul li a {
 	display: block;
-	background-color:  #5f1515;
+
 	padding: 2px 30px;
 	font-size: 2em;
 	color: #ffffff;
 	text-decoration: none;
-	border: 2px solid black;
-	border-radius: 30px;
 	transition: all 0.3s ease;
 }
 
@@ -145,6 +143,7 @@ header .header-img{
 	color: #ffffff;
 	box-shadow: 1px 5px 10px -5px white;
 	border-radius: 0;
+	border: 2px solid black;
 	transition: all 0.3s ease;
 }
 
